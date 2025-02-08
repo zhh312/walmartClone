@@ -44,7 +44,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```sh
    git clone https://github.com/zhh312/walmartClone.git
-   cd walmartClone/ShoppingApp-Back
+   cd walmartClone/Mini-Walmart-main/backend
    ```
 2. Update **application.properties** with your database credentials:
    
@@ -54,7 +54,7 @@ Ensure you have the following installed:
 ### Frontend (Angular)
 1. Navigate to the frontend directory:
    ```sh
-   cd walmartClone/Mini-Walmart-main
+   cd walmartClone/Mini-Walmart-main/frontend
    ```
 2. Install dependencies:
    ```sh
@@ -64,6 +64,9 @@ Ensure you have the following installed:
    ```sh
    ng serve
    ```
+
+### Database Setup (MySQL)
+1. Create a database using sql file.
 
 ## License
 This project is licensed under the **MIT License**.
